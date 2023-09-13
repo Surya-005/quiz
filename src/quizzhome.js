@@ -18,7 +18,7 @@ function Quizzhome() {
                     <div className="letsgo_button">
                         <Link to={'/vinadivina'}>Lets go</Link>
                     </div>
-                    <span className="questionmark q2">?</span>
+                    <span className="q2">?</span>
                 </div>
                 <div className="landing_body_right">
                     <img src={QuizzImg} alt="unavailable" />

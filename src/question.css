@@ -153,6 +153,10 @@ main{
     }
     .options li{
         font-size: 18px;
+        width:95%;
+    }
+    .result{
+        padding:0.5em;
     }
 }
 @media screen and (max-width:600px) {
