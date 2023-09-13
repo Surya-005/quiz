@@ -6,7 +6,7 @@ function Nav() {
   return (
     <div id="logo">
       <Link to="/">
-      <span className='v'>Q<span className="q">UIZ</span></span>
+      <span className='q'>Q<span className="uiz">UIZ</span></span>
       </Link>
       </div>
   )

@@ -8,19 +8,19 @@
     z-index: 2;
     border-bottom: 1px solid rgb(200, 200, 200);
 }
-#logo .v {
+#logo .q {
     color: orange;
     font-size: 50px;
     font-family:Arial, Helvetica, sans-serif
 }
-#logo .q {
+#logo .uiz {
     color: purple;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     position: relative;
 }
-#logo .q::after{
+#logo .uiz::after{
     content: "";
     position: absolute;
     left: 0%;
@@ -40,21 +40,21 @@
     }
 }
 @media  screen and (max-width:700px) {
-    #logo .v {
+    #logo .q {
     font-size: 40px;
 }
-#logo .q {
+#logo .uiz {
     font-size: 20px;
 }
 }
 @media  screen and (max-width:500px) {
-    #logo .v {
+    #logo .q {
     font-size: 30px;
 }
-#logo .q {
+#logo .uiz {
     font-size: 17px;
 }
-#logo .q::after{
+#logo .uiz::after{
     margin: 12px 0px 0px;
 }
 }
