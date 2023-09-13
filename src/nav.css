@@ -1,0 +1,60 @@
+#logo{
+    background-color: rgb(220, 220, 220);
+    padding-left: 0.5em;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 2;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+#logo .v {
+    color: orange;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif
+}
+#logo .q {
+    color: purple;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+#logo .q::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    border-left: 3px solid orange;
+    height: 100%;
+    width: 100%;
+    margin: 15px 0px 0px;
+    animation-name: type;
+    animation-duration: 2s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
+    background-color: rgb(220, 220, 220) ;
+}
+@keyframes type {
+    100%{
+        left:135%;
+    }
+}
+@media  screen and (max-width:700px) {
+    #logo .v {
+    font-size: 40px;
+}
+#logo .q {
+    font-size: 20px;
+}
+}
+@media  screen and (max-width:500px) {
+    #logo .v {
+    font-size: 30px;
+}
+#logo .q {
+    font-size: 17px;
+}
+#logo .q::after{
+    margin: 12px 0px 0px;
+}
+}

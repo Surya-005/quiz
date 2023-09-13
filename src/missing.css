@@ -1,0 +1,9 @@
+.missing {
+  margin-top: 5em;
+}
+.missing h1{
+    color: purple;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    text-align: center;
+}
