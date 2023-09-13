@@ -24,8 +24,7 @@ a {
 }
 .container {
     display: flex;
-    justify-content:center;
-    overflow:auto;
+    justify-content:center; 
 }
 .landing_body_left {
     display: flex;
@@ -289,3 +288,8 @@ span {
         top:-30%;
     }
   }
+  @media  screen and (max-height:500px) {
+    .container{
+        overflow: auto;
+    }
+}
